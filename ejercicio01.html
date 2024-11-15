@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ejercicio de clase</title>
+<!--	VINCULOS A HOJAS DE ESTILO-->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	
+<!--VINCULOS A LIBRERIAS JS	-->
+<script src="js/jquery-3.7.1.js"></script>
+<script src="js/bootstrap.bundle.js"></script>	
+</head>
+
+<body>
+	<div class="container-fluid">
+<!--	barra nde navegacion-->
+		<nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+	 	<img src="img/logo.jpg" alt="Move Wellness"> 
+	 </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+        </li>
+		 <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            PRODUCTOS
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Producto 01</a></li>
+            <li><a class="dropdown-item" href="#">Producto 02</a></li>
+            <li><a class="dropdown-item" href="#">Producto 03</a></li>
+			<li><a class="dropdown-item" href="#">Producto 04</a></li>
+          </ul>
+        </li> 
+			<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SERVICIOS
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Servicio 01</a></li>
+            <li><a class="dropdown-item" href="#">Servicio 02</a></li>
+            <li><a class="dropdown-item" href="#">Servicio 03</a></li>
+          </ul>
+        </li>  
+        <li class="nav-item">
+          <a class="nav-link" href="#">BLOG</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">CONTACTO</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+	</div>
+	
+	<div class="container-fluid">
+<!--	carrusel de imagenes-->
+		<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+<!--    imagen 01-->
+	  <div class="carousel-item active">
+      <img src="img/slide01.jpg" class="d-block w-100" alt="...">
+    </div>
+<!--	  imagen 02-->
+    <div class="carousel-item">
+      <img src="img/slide02.jpg" class="d-block w-100" alt="...">
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiendo</span>
+  </button>
+</div>
+	</div>
+<!--	ESTA ES OTRA CAJA DONDE ESTARAN LAS 4 COLUMNAS-->
+	<div class="container py-5">
+		<div class="row">
+			<div class="col-3">
+			
+			<div class="card" style="width: 18rem;">
+  <img src="img/articulo.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">OPCION 01</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur amet doloribus aut provident possimus odit maiores deleniti temporibus dolorem a. Suscipit eligendi fugit rem voluptatibus, dolorum ut quibusdam pariatur quod.</p>
+    <a href="#" class="btn btn-primary">Leer más...</a>
+  </div>
+</div>
+				
+			</div>
+			<div class="col-3">
+			<div class="card" style="width: 18rem;">
+  <img src="img/articulo.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">OPCION 01</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur amet doloribus aut provident possimus odit maiores deleniti temporibus dolorem a. Suscipit eligendi fugit rem voluptatibus, dolorum ut quibusdam pariatur quod.</p>
+    <a href="#" class="btn btn-primary">Leer más...</a>
+  </div>
+</div>
+			</div>
+			<div class="col-3">
+			<div class="card" style="width: 18rem;">
+  <img src="img/articulo.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">OPCION 01</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur amet doloribus aut provident possimus odit maiores deleniti temporibus dolorem a. Suscipit eligendi fugit rem voluptatibus, dolorum ut quibusdam pariatur quod.</p>
+    <a href="#" class="btn btn-primary">Leer más...</a>
+  </div>
+</div></div>
+			<div class="col-3">
+			<div class="card" style="width: 18rem;">
+  <img src="img/articulo.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">OPCION 01</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur amet doloribus aut provident possimus odit maiores deleniti temporibus dolorem a. Suscipit eligendi fugit rem voluptatibus, dolorum ut quibusdam pariatur quod.</p>
+    <a href="#" class="btn btn-primary">Leer más...</a>
+  </div>
+</div></div>
+		</div>
+	</div>
+	
+<!--	CAJA CON FONDO Y TEXTO-->
+	<div class="container-fluid bg-secondary-subtle py-5" style="text-align:center;">
+	<h1 class="display-2">Aqui un titulo cualquiera</h1>
+	</div>
+	
+	<div class="container my-5">
+		<div class="row">
+			<div class="col-6">
+			<img src="img/articulo.jpg" alt="" class="img-fluid">
+			</div>
+			<div class="col-6" style="text-align: justify;">
+			<h1 class="display-3">Aqui un titulo</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis provident debitis quibusdam blanditiis tempora magni ab numquam consequuntur sint tempore. Possimus nemo iusto a sint doloremque, dolores quam officia quibusdam.</p>
+				<p>Vero, ullam, recusandae. Tenetur quisquam numquam rem enim, obcaecati, esse iusto soluta dignissimos ullam perferendis. Doloribus quaerat fugit, molestiae repellat nam laboriosam error laborum pariatur, nemo et, libero porro saepe.</p>
+				<p>Consequatur vel rerum autem dolorum placeat error itaque adipisci esse, quisquam suscipit sapiente harum illum dolore possimus provident quaerat incidunt culpa repudiandae iusto ducimus optio veniam. Laudantium ex, provident odio!</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid bg-secondary bg-gradient py-5">
+	
+	</div>
+</body>
+</html>
